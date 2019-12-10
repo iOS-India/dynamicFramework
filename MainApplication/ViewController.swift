@@ -10,16 +10,25 @@ import UIKit
 import ASFramework
 
 class ViewController: UIViewController {
-let personObj = Person(name: "Anurag Sharma")
+    
+var persons:[Person]?
+let personObj1 = Person(name: "Anurag Sharma")
+let personObj2 = Person(name: "Kapil Sharma")
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        personObj.toString()
         
         let course = Course()
+        course.registerPerson(personObj1);
+        course.registerPerson(personObj2);
+        persons = course.persons()
+        if let persons = persons {
+            for person in persons {
+                print(person.asname)
+            }
+        }
     }
-
 
 }
 

@@ -8,12 +8,13 @@
 
 import Foundation
 public class Person{
-    let name:String
+   @objc public let asname:String
+    
     public init(name:String) {
-        self.name = name
+        self.asname = name
     }
     
    public func toString() -> Void {
-        print("Person = Name \(self.name)")
+        print("Person = Name \(self.asname)")
     }
 }

@@ -8,10 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
+@class Person;
+/*
+ __covariant is to indicate that subtypes are acceptable, and __contravariant to indicate that supertypes are acceptable.
+ */
+@interface Course<__covariant T: Person*> : NSObject
 
-@interface Course : NSObject
-
+-(void)registerPerson:(Person *_Nonnull)person;
+-(nullable NSArray <T>*)persons;
 @end
 
-NS_ASSUME_NONNULL_END
