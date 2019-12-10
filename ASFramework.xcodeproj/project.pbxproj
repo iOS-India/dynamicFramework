@@ -22,6 +22,8 @@
 		DB1660D0239F710800FAE666 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1660CF239F710800FAE666 /* Person.swift */; };
 		DB1660D2239F751B00FAE666 /* ASFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB16607E239F6CCD00FAE666 /* ASFramework.framework */; };
 		DB1660D3239F751B00FAE666 /* ASFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB16607E239F6CCD00FAE666 /* ASFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DB1660DF239F7B0200FAE666 /* Course.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1660DD239F7B0200FAE666 /* Course.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB1660E0239F7B0200FAE666 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1660DE239F7B0200FAE666 /* Course.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +94,8 @@
 		DB1660C3239F6FFA00FAE666 /* MainApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApplicationUITests.swift; sourceTree = "<group>"; };
 		DB1660C5239F6FFA00FAE666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB1660CF239F710800FAE666 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		DB1660DD239F7B0200FAE666 /* Course.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		DB1660DE239F7B0200FAE666 /* Course.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +170,8 @@
 				DB166081239F6CCD00FAE666 /* ASFramework.h */,
 				DB166082239F6CCD00FAE666 /* Info.plist */,
 				DB1660CF239F710800FAE666 /* Person.swift */,
+				DB1660DD239F7B0200FAE666 /* Course.h */,
+				DB1660DE239F7B0200FAE666 /* Course.m */,
 			);
 			path = ASFramework;
 			sourceTree = "<group>";
@@ -227,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB16608F239F6CCD00FAE666 /* ASFramework.h in Headers */,
+				DB1660DF239F7B0200FAE666 /* Course.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +429,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB1660E0239F7B0200FAE666 /* Course.m in Sources */,
 				DB1660D0239F710800FAE666 /* Person.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
