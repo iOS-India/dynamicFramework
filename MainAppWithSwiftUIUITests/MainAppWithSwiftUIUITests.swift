@@ -1,6 +1,6 @@
 //
-//  MainApplicationUITests.swift
-//  MainApplicationUITests
+//  MainAppWithSwiftUIUITests.swift
+//  MainAppWithSwiftUIUITests
 //
 //  Created by Anurag Sharma on 10/12/19.
 //  Copyright © 2019 AnuragSharma. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class MainApplicationUITests: XCTestCase {
+class MainAppWithSwiftUIUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
